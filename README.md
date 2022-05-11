@@ -3,7 +3,7 @@ This takes an mp4 video file and makes unique jpg slides.
 
 This file will take an mp4 file and make a series of jpg image files.  It is intended that if you have a video power point presentation but have lost the power point slides it attempts to capture them from the video.
 
-The command is `slideMaker.py "yourVideo.mpg"` and this will create a folder called yourVideo_slides and in them will be jpg slides.  To run from command line, the slideMaker.py must be in the same directory where the terminal is running, it is not globally installed on the system.  I also locate the video in the same folder for simplicity, otherwise you would have to specify full or relative path.
+The command is `slideMaker.py "yourVideo.mp4"` and this will create a folder called yourVideo_slides and in them will be jpg slides.  To run from command line, the slideMaker.py must be in the same directory where the terminal is running, it is not globally installed on the system.  I also locate the video in the same folder for simplicity, otherwise you would have to specify full or relative path.
 
 Or if you run it without an argument, it will look for "test_video.mp4" in the current directory.
 
